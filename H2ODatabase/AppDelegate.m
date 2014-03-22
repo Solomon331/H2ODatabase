@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
-#import "MasterViewController.h"
+#import "RootViewController.h"
+#import "ImpactTeamTableViewController.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -18,20 +19,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [Parse setApplicationId:@"clJ1NQsFarADwxL8fMTIqeo0HSuCwl4aFkBlKEzT"
+                  clientKey:@"sMgF61aLVwE7hXA61k1QR7tVYdk0O0Z3tZ0BmpZz"];
+    
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
         
-        UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-        MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
-        controller.managedObjectContext = self.managedObjectContext;
+        UINavigationController *impactTeamNavigationController = splitViewController.viewControllers[0];
+        ImpactTeamTableViewController *controller = (ImpactTeamTableViewController *)impactTeamNavigationController.topViewController;
+        //controller.managedObjectContext = self.managedObjectContext;
     } else {
         UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-        MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
-        controller.managedObjectContext = self.managedObjectContext;
+        //ImpactTeamTableViewController *controller = (ImpactTeamTableViewController *)navigationController.topViewController;
+       
     }
+   
+    RootViewController *controller = [[RootViewController alloc]init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:controller];
+    [self.window makeKeyAndVisible];
+    //Makes sure when program loads there is no one signed in
+    [PFUser logOut];
     return YES;
 }
 							

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4499DB2718DB645B00AB7732 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4499DB2418DB645B00AB7732 /* LoginViewController.m */; };
+		4499DB2818DB645B00AB7732 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4499DB2618DB645B00AB7732 /* SignUpViewController.m */; };
+		4499DB2B18DB6C9600AB7732 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4499DB2A18DB6C9600AB7732 /* RootViewController.m */; };
 		44AB80FE18BC4606009E18A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB80FD18BC4606009E18A9 /* Foundation.framework */; };
 		44AB810018BC4606009E18A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB80FF18BC4606009E18A9 /* CoreGraphics.framework */; };
 		44AB810218BC4606009E18A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB810118BC4606009E18A9 /* UIKit.framework */; };
@@ -17,7 +20,6 @@
 		44AB811318BC4606009E18A9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AB811118BC4606009E18A9 /* Main_iPhone.storyboard */; };
 		44AB811618BC4606009E18A9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AB811418BC4606009E18A9 /* Main_iPad.storyboard */; };
 		44AB811918BC4606009E18A9 /* H2ODatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44AB811718BC4606009E18A9 /* H2ODatabase.xcdatamodeld */; };
-		44AB811C18BC4606009E18A9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AB811B18BC4606009E18A9 /* MasterViewController.m */; };
 		44AB811F18BC4606009E18A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AB811E18BC4606009E18A9 /* DetailViewController.m */; };
 		44AB812118BC4606009E18A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AB812018BC4606009E18A9 /* Images.xcassets */; };
 		44AB812818BC4606009E18A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB812718BC4606009E18A9 /* XCTest.framework */; };
@@ -26,6 +28,18 @@
 		44AB812B18BC4606009E18A9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB810318BC4606009E18A9 /* CoreData.framework */; };
 		44AB813318BC4606009E18A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44AB813118BC4606009E18A9 /* InfoPlist.strings */; };
 		44AB813518BC4606009E18A9 /* H2ODatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AB813418BC4606009E18A9 /* H2ODatabaseTests.m */; };
+		44AB813F18BC46CD009E18A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB813E18BC46CD009E18A9 /* Parse.framework */; };
+		44AB814218BC46E6009E18A9 /* YouthSpecialist.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AB814118BC46E6009E18A9 /* YouthSpecialist.m */; };
+		44AB814418BC4C12009E18A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814318BC4C12009E18A9 /* AudioToolbox.framework */; };
+		44AB814618BC4C1A009E18A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814518BC4C1A009E18A9 /* CFNetwork.framework */; };
+		44AB814818BC4C2C009E18A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814718BC4C2C009E18A9 /* CoreLocation.framework */; };
+		44AB814A18BC4C42009E18A9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814918BC4C42009E18A9 /* libz.dylib */; };
+		44AB814C18BC4C53009E18A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814B18BC4C53009E18A9 /* QuartzCore.framework */; };
+		44AB814E18BC4C5F009E18A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814D18BC4C5F009E18A9 /* MobileCoreServices.framework */; };
+		44AB815018BC4C67009E18A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB814F18BC4C67009E18A9 /* Security.framework */; };
+		44AB815218BC4C79009E18A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB815118BC4C79009E18A9 /* SystemConfiguration.framework */; };
+		44AB815418BC4C87009E18A9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB815318BC4C87009E18A9 /* StoreKit.framework */; };
+		44AB815718BC59FC009E18A9 /* ImpactTeamTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AB815618BC59FC009E18A9 /* ImpactTeamTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4499DB2318DB645B00AB7732 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4499DB2418DB645B00AB7732 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4499DB2518DB645B00AB7732 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		4499DB2618DB645B00AB7732 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		4499DB2918DB6C9600AB7732 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4499DB2A18DB6C9600AB7732 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		44AB80FA18BC4606009E18A9 /* H2ODatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H2ODatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AB80FD18BC4606009E18A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44AB80FF18BC4606009E18A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,8 +73,6 @@
 		44AB811218BC4606009E18A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		44AB811518BC4606009E18A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		44AB811818BC4606009E18A9 /* H2ODatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = H2ODatabase.xcdatamodel; sourceTree = "<group>"; };
-		44AB811A18BC4606009E18A9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		44AB811B18BC4606009E18A9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		44AB811D18BC4606009E18A9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		44AB811E18BC4606009E18A9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		44AB812018BC4606009E18A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -63,6 +81,20 @@
 		44AB813018BC4606009E18A9 /* H2ODatabaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "H2ODatabaseTests-Info.plist"; sourceTree = "<group>"; };
 		44AB813218BC4606009E18A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44AB813418BC4606009E18A9 /* H2ODatabaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H2ODatabaseTests.m; sourceTree = "<group>"; };
+		44AB813E18BC46CD009E18A9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		44AB814018BC46E6009E18A9 /* YouthSpecialist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouthSpecialist.h; sourceTree = "<group>"; };
+		44AB814118BC46E6009E18A9 /* YouthSpecialist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouthSpecialist.m; sourceTree = "<group>"; };
+		44AB814318BC4C12009E18A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44AB814518BC4C1A009E18A9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		44AB814718BC4C2C009E18A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		44AB814918BC4C42009E18A9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		44AB814B18BC4C53009E18A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44AB814D18BC4C5F009E18A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		44AB814F18BC4C67009E18A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44AB815118BC4C79009E18A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		44AB815318BC4C87009E18A9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		44AB815518BC59FC009E18A9 /* ImpactTeamTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpactTeamTableViewController.h; sourceTree = "<group>"; };
+		44AB815618BC59FC009E18A9 /* ImpactTeamTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpactTeamTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +102,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AB815418BC4C87009E18A9 /* StoreKit.framework in Frameworks */,
+				44AB815218BC4C79009E18A9 /* SystemConfiguration.framework in Frameworks */,
+				44AB815018BC4C67009E18A9 /* Security.framework in Frameworks */,
+				44AB814E18BC4C5F009E18A9 /* MobileCoreServices.framework in Frameworks */,
+				44AB814C18BC4C53009E18A9 /* QuartzCore.framework in Frameworks */,
+				44AB814A18BC4C42009E18A9 /* libz.dylib in Frameworks */,
+				44AB814818BC4C2C009E18A9 /* CoreLocation.framework in Frameworks */,
+				44AB814618BC4C1A009E18A9 /* CFNetwork.framework in Frameworks */,
+				44AB814418BC4C12009E18A9 /* AudioToolbox.framework in Frameworks */,
+				44AB813F18BC46CD009E18A9 /* Parse.framework in Frameworks */,
 				44AB810018BC4606009E18A9 /* CoreGraphics.framework in Frameworks */,
 				44AB810418BC4606009E18A9 /* CoreData.framework in Frameworks */,
 				44AB810218BC4606009E18A9 /* UIKit.framework in Frameworks */,
@@ -91,6 +133,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4499DB2218DB644300AB7732 /* ParseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4499DB2318DB645B00AB7732 /* LoginViewController.h */,
+				4499DB2418DB645B00AB7732 /* LoginViewController.m */,
+				4499DB2518DB645B00AB7732 /* SignUpViewController.h */,
+				4499DB2618DB645B00AB7732 /* SignUpViewController.m */,
+			);
+			name = ParseControllers;
+			sourceTree = "<group>";
+		};
 		44AB80F118BC4606009E18A9 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +166,16 @@
 		44AB80FC18BC4606009E18A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44AB815318BC4C87009E18A9 /* StoreKit.framework */,
+				44AB815118BC4C79009E18A9 /* SystemConfiguration.framework */,
+				44AB814F18BC4C67009E18A9 /* Security.framework */,
+				44AB814D18BC4C5F009E18A9 /* MobileCoreServices.framework */,
+				44AB814B18BC4C53009E18A9 /* QuartzCore.framework */,
+				44AB814918BC4C42009E18A9 /* libz.dylib */,
+				44AB814718BC4C2C009E18A9 /* CoreLocation.framework */,
+				44AB814518BC4C1A009E18A9 /* CFNetwork.framework */,
+				44AB814318BC4C12009E18A9 /* AudioToolbox.framework */,
+				44AB813E18BC46CD009E18A9 /* Parse.framework */,
 				44AB80FD18BC4606009E18A9 /* Foundation.framework */,
 				44AB80FF18BC4606009E18A9 /* CoreGraphics.framework */,
 				44AB810118BC4606009E18A9 /* UIKit.framework */,
@@ -129,13 +192,15 @@
 				44AB810F18BC4606009E18A9 /* AppDelegate.m */,
 				44AB811118BC4606009E18A9 /* Main_iPhone.storyboard */,
 				44AB811418BC4606009E18A9 /* Main_iPad.storyboard */,
-				44AB811A18BC4606009E18A9 /* MasterViewController.h */,
-				44AB811B18BC4606009E18A9 /* MasterViewController.m */,
 				44AB811D18BC4606009E18A9 /* DetailViewController.h */,
 				44AB811E18BC4606009E18A9 /* DetailViewController.m */,
 				44AB812018BC4606009E18A9 /* Images.xcassets */,
 				44AB811718BC4606009E18A9 /* H2ODatabase.xcdatamodeld */,
 				44AB810618BC4606009E18A9 /* Supporting Files */,
+				44AB814018BC46E6009E18A9 /* YouthSpecialist.h */,
+				44AB814118BC46E6009E18A9 /* YouthSpecialist.m */,
+				44AB815518BC59FC009E18A9 /* ImpactTeamTableViewController.h */,
+				44AB815618BC59FC009E18A9 /* ImpactTeamTableViewController.m */,
 			);
 			path = H2ODatabase;
 			sourceTree = "<group>";
@@ -143,10 +208,13 @@
 		44AB810618BC4606009E18A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4499DB2218DB644300AB7732 /* ParseControllers */,
 				44AB810718BC4606009E18A9 /* H2ODatabase-Info.plist */,
 				44AB810818BC4606009E18A9 /* InfoPlist.strings */,
 				44AB810B18BC4606009E18A9 /* main.m */,
 				44AB810D18BC4606009E18A9 /* H2ODatabase-Prefix.pch */,
+				4499DB2918DB6C9600AB7732 /* RootViewController.h */,
+				4499DB2A18DB6C9600AB7732 /* RootViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -267,10 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AB815718BC59FC009E18A9 /* ImpactTeamTableViewController.m in Sources */,
 				44AB811F18BC4606009E18A9 /* DetailViewController.m in Sources */,
-				44AB811C18BC4606009E18A9 /* MasterViewController.m in Sources */,
 				44AB811918BC4606009E18A9 /* H2ODatabase.xcdatamodeld in Sources */,
 				44AB811018BC4606009E18A9 /* AppDelegate.m in Sources */,
+				4499DB2718DB645B00AB7732 /* LoginViewController.m in Sources */,
+				4499DB2B18DB6C9600AB7732 /* RootViewController.m in Sources */,
+				44AB814218BC46E6009E18A9 /* YouthSpecialist.m in Sources */,
+				4499DB2818DB645B00AB7732 /* SignUpViewController.m in Sources */,
 				44AB810C18BC4606009E18A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +480,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/angelolivera/Desktop/H2ODatabase,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "H2ODatabase/H2ODatabase-Prefix.pch";
 				INFOPLIST_FILE = "H2ODatabase/H2ODatabase-Info.plist";
@@ -421,6 +497,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/angelolivera/Desktop/H2ODatabase,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "H2ODatabase/H2ODatabase-Prefix.pch";
 				INFOPLIST_FILE = "H2ODatabase/H2ODatabase-Info.plist";
@@ -490,6 +570,7 @@
 				44AB813A18BC4606009E18A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44AB813B18BC4606009E18A9 /* Build configuration list for PBXNativeTarget "H2ODatabaseTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +579,7 @@
 				44AB813D18BC4606009E18A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
